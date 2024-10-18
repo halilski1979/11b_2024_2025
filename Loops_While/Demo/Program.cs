@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int n=int.Parse(Console.ReadLine());
+            while (n<=10)
+            {
+                Console.WriteLine(n);
+                n++;
+            }
         }
     }
 }
