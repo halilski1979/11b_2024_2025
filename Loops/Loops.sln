@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo0", "Demo0\Demo0.csproj", "{4F19789C-064D-462A-8BF0-2DC20120C7AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo0", "Demo0\Demo0.csproj", "{4F19789C-064D-462A-8BF0-2DC20120C7AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01_Numbers_Ending_7", "p01_Numbers_Ending_7\p01_Numbers_Ending_7.csproj", "{4B2DD655-7F1A-422C-BCFD-5383B5437E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01_Numbers_Ending_7", "p01_Numbers_Ending_7\p01_Numbers_Ending_7.csproj", "{4B2DD655-7F1A-422C-BCFD-5383B5437E8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02_Sum_1_10", "p02_Sum_1_10\p02_Sum_1_10.csproj", "{9F3882F8-0270-497E-B3BF-9D0030EDCDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02_Sum_1_10", "p02_Sum_1_10\p02_Sum_1_10.csproj", "{9F3882F8-0270-497E-B3BF-9D0030EDCDE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03_Sum_ChetniChisla", "p03_Sum_ChetniChisla\p03_Sum_ChetniChisla.csproj", "{26F78336-F6F3-4135-9C19-71DC96A0FCE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03_Sum_ChetniChisla", "p03_Sum_ChetniChisla\p03_Sum_ChetniChisla.csproj", "{26F78336-F6F3-4135-9C19-71DC96A0FCE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04_PrintAlphabet", "p04_PrintAlphabet\p04_PrintAlphabet.csproj", "{B2CE05BB-6F35-4A71-BD2F-D3514D859F1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p04_PrintAlphabet", "p04_PrintAlphabet\p04_PrintAlphabet.csproj", "{B2CE05BB-6F35-4A71-BD2F-D3514D859F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p05_SumGlasniBukvi", "p05_SumGlasniBukvi\p05_SumGlasniBukvi.csproj", "{D6D611EF-12E3-431A-9E09-CAAD570863B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p05_SumGlasniBukvi", "p05_SumGlasniBukvi\p05_SumGlasniBukvi.csproj", "{D6D611EF-12E3-431A-9E09-CAAD570863B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p06_SumNumbers", "p06_SumNumbers\p06_SumNumbers.csproj", "{2AD8BD62-73D1-4962-AEFD-306FEEC4FF10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p06_SumNumbers", "p06_SumNumbers\p06_SumNumbers.csproj", "{2AD8BD62-73D1-4962-AEFD-306FEEC4FF10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p07_Histograma", "p07_Histograma\p07_Histograma.csproj", "{6E155B15-3D9E-4230-AB04-B7ADF67A28B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p07_Histograma", "p07_Histograma\p07_Histograma.csproj", "{6E155B15-3D9E-4230-AB04-B7ADF67A28B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p08_Vlojeni_Cikli", "p08_Vlojeni_Cikli\p08_Vlojeni_Cikli.csproj", "{5653C8FF-5974-49A7-9539-6537DE5A6507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p09_MagicNumbers", "p09_MagicNumbers\p09_MagicNumbers.csproj", "{5B13B108-5E12-4594-8021-36F272519634}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{6E155B15-3D9E-4230-AB04-B7ADF67A28B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E155B15-3D9E-4230-AB04-B7ADF67A28B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E155B15-3D9E-4230-AB04-B7ADF67A28B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5653C8FF-5974-49A7-9539-6537DE5A6507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5653C8FF-5974-49A7-9539-6537DE5A6507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5653C8FF-5974-49A7-9539-6537DE5A6507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5653C8FF-5974-49A7-9539-6537DE5A6507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B13B108-5E12-4594-8021-36F272519634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B13B108-5E12-4594-8021-36F272519634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B13B108-5E12-4594-8021-36F272519634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B13B108-5E12-4594-8021-36F272519634}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
