@@ -15,7 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-Kvadrat_Ot_Sbor", "P04-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05 - AreaTriangle", "P05 - AreaTriangle\P05 - AreaTriangle.csproj", "{C90331EF-32E0-4194-9AAB-70D5A45788FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06 - Print", "P06 - Print\P06 - Print.csproj", "{CF0F3370-50AB-4EA8-8127-FC4245584830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06 - Print", "P06 - Print\P06 - Print.csproj", "{CF0F3370-50AB-4EA8-8127-FC4245584830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07 - AreaTrapec", "P07 - AreaTrapec\P07 - AreaTrapec.csproj", "{6D696762-6C11-4F6B-8FC1-B26456FD6B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08 - GetMax", "P08 - GetMax\P08 - GetMax.csproj", "{74023610-786D-4B70-8B4A-92E9B19570AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p09 - SignaturaMethod", "p09 - SignaturaMethod\p09 - SignaturaMethod.csproj", "{F1CFFFD9-0414-4A88-B193-4573EEF35B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p10 - Stepen", "p10 - Stepen\p10 - Stepen.csproj", "{36DE6C52-4C4E-4DF3-AB12-B0D43F1B0ADC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{CF0F3370-50AB-4EA8-8127-FC4245584830}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0F3370-50AB-4EA8-8127-FC4245584830}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0F3370-50AB-4EA8-8127-FC4245584830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D696762-6C11-4F6B-8FC1-B26456FD6B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D696762-6C11-4F6B-8FC1-B26456FD6B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D696762-6C11-4F6B-8FC1-B26456FD6B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D696762-6C11-4F6B-8FC1-B26456FD6B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74023610-786D-4B70-8B4A-92E9B19570AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74023610-786D-4B70-8B4A-92E9B19570AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74023610-786D-4B70-8B4A-92E9B19570AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74023610-786D-4B70-8B4A-92E9B19570AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CFFFD9-0414-4A88-B193-4573EEF35B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CFFFD9-0414-4A88-B193-4573EEF35B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CFFFD9-0414-4A88-B193-4573EEF35B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CFFFD9-0414-4A88-B193-4573EEF35B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DE6C52-4C4E-4DF3-AB12-B0D43F1B0ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DE6C52-4C4E-4DF3-AB12-B0D43F1B0ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DE6C52-4C4E-4DF3-AB12-B0D43F1B0ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DE6C52-4C4E-4DF3-AB12-B0D43F1B0ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
