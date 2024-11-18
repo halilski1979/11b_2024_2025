@@ -19,12 +19,11 @@ namespace p14___TestovKlient
             }
             else
             {
-                var smetka = new BancAccount();
+                BancAccount smetka = new BancAccount();
                 smetka.Id = id;
                 smetka.Balance = 1000;
                 //accaount.Balance = 1000;
                 bankoviSmetki.Add(id, smetka);
-
             }
         }
         public void Deposit(int id, double amount)
@@ -35,10 +34,9 @@ namespace p14___TestovKlient
             }
             else 
             {
-              var smetka =bankoviSmetki[id];
-              //BancAccount smetka = bankoviSmetki[id];
-
-                smetka.Deposit(amount);
+              //var smetka=bankoviSmetki[id];
+              BancAccount smetka = bankoviSmetki[id];
+              smetka.Deposit(amount);
             }
         }
         public void Withdraw(int id, double amount)
@@ -54,8 +52,7 @@ namespace p14___TestovKlient
             {
                 if (smetka.Balance < amount)
                 {
-                    Console.WriteLine("Insufficient balance");
-                   
+                    Console.WriteLine("Insufficient balance");                   
                 }
                 else
                 {
