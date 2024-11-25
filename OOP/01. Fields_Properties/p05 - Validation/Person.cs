@@ -20,59 +20,70 @@ namespace p05___Validation
         {
             get { return fName; }
             private set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("First name cannot be null or empty.");
-                if (value.Length < 2 || value.Length > 50)
-                    throw new ArgumentException("First name must be between 2 and 50 characters.");
+            {               
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentException("Firts name cannot be null or empty!");
+                }
+
+                if (value.Length<2 || value.Length > 50)
+                {
+                    throw new ArgumentException("First name must be >2 and <50 symbols.");
+                } 
+                
                 fName = value;
             }
         }
-
         public string SName
         {
             get { return sName; }
             private set
             {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("Second name cannot be null or empty.");
-                if (value.Length < 2 || value.Length > 50)
-                    throw new ArgumentException("Second name must be between 2 and 50 characters.");
+                if(string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentException("Second name canot be null or empry!");
+                }
                 sName = value;
             }
         }
-
         public int Age
         {
             get { return age; }
             private set
             {
-                if (value < 0 || value > 120)
-                    throw new ArgumentException("Age must be between 0 and 120.");
+                if (value<0 || value>100)
+                {
+                    throw new ArgumentException("Age cannot be negative or more than 100!");
+                }
                 age = value;
             }
         }
-
         public decimal Salary
         {
             get { return salary; }
             private set
             {
-                if (value < 0)
-                    throw new ArgumentException("Salary cannot be negative.");
-                if (value > 1_000_000)
-                    throw new ArgumentException("Salary exceeds maximum allowed value.");
+                if (value < 1000 || value > 2000)
+                {
+                    throw new ArgumentException("Age cannot be negative or more than 100!");
+                }
                 salary = value;
             }
         }
-
         public string City
         {
             get { return city; }
             private set
             {
-                if (string.IsNullOrWhiteSpace(value))
-                    throw new ArgumentException("City cannot be null or empty.");
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new ArgumentException("Firts name cannot be null or empty!");
+                }
+
+                if (value.Length < 2 || value.Length > 50)
+                {
+                    throw new ArgumentException("First name must be >2 and <50 symbols.");
+                }
                 city = value;
             }
         }
@@ -80,12 +91,12 @@ namespace p05___Validation
         // Конструктор
         public Person(string fName, string sName, int age, decimal salary, string city)
         {
-            FName = fName; // През свойствата се прилагат валидациите
-            SName = sName;
-            Age = age;
-            Salary = salary;
-            City = city;
-        }
+           this.FName = fName; // През свойствата се прилагат валидациите
+            this.SName = sName;
+            this.Age = age;
+            this.Salary = salary;
+            this.City = city;
+        }        
 
         // Показване на информация за обекта
         public override string ToString()

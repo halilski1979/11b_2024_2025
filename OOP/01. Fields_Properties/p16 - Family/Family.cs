@@ -26,7 +26,6 @@ namespace p16___Family
         {
             persons = persons.OrderBy(x => x.Name).ToList();
         }
-
         public Person GetOldestMember()
         {            
             return persons.OrderBy(x => x.Age).LastOrDefault();
