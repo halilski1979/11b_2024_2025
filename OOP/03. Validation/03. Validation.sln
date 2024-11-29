@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_PersonDataValidation", "P10_PersonDataValidation\P10_PersonDataValidation.csproj", "{B2E554E3-4DC5-46C2-88DF-2AA1E4ADC7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P10_PersonDataValidation", "P10_PersonDataValidation\P10_PersonDataValidation.csproj", "{B2E554E3-4DC5-46C2-88DF-2AA1E4ADC7CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_Box", "P11_Box\P11_Box.csproj", "{B47E2110-21F9-4938-88F9-3EC7E6CAD888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P11_Box", "P11_Box\P11_Box.csproj", "{B47E2110-21F9-4938-88F9-3EC7E6CAD888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12 - PersonValidation_Construktor", "P12 - PersonValidation_Construktor\P12 - PersonValidation_Construktor.csproj", "{EFBA00C4-85E0-4EB5-BBF9-7D7B93285E01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B47E2110-21F9-4938-88F9-3EC7E6CAD888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47E2110-21F9-4938-88F9-3EC7E6CAD888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47E2110-21F9-4938-88F9-3EC7E6CAD888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBA00C4-85E0-4EB5-BBF9-7D7B93285E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBA00C4-85E0-4EB5-BBF9-7D7B93285E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBA00C4-85E0-4EB5-BBF9-7D7B93285E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBA00C4-85E0-4EB5-BBF9-7D7B93285E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
