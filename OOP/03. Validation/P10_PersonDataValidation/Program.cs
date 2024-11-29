@@ -4,13 +4,27 @@
     {
         static void Main(string[] args)
         {
-            
-           Person p=new Person("Ivan","Ivanov",23,20000);
 
-            Console.WriteLine(p);
-            p.LastName = "Petrov";
+            var lines = int.Parse(Console.ReadLine());
+            var persons = new List<Person>();
+            for (int i = 0; i < lines; i++)
+            {
+                var cmdArgs = Console.ReadLine().Split();
+                var person = new Person
+                (
+                    cmdArgs[0],
+                    cmdArgs[1],
+                    int.Parse(cmdArgs[2]),
+                    double.Parse(cmdArgs[3])
+                );
+                persons.Add(person);
+            }
 
-            Console.WriteLine(p);
+            foreach (var item in persons)
+            {
+                item.IncreaseSalary(20);
+                Console.WriteLine(item.ToString());
+            }
         }
     }
 }
