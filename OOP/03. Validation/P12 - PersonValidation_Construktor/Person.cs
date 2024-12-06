@@ -13,11 +13,16 @@ namespace P12___PersonValidation_Construktor
         public int Age { get; set; }
         public double Salary { get; set; }
 
-        public static int counter;
-        
-       
+        private static int counter;
+        public static int Counter
+        {
+            get { return counter; }
+            private set { counter = value; }
+        }
 
-       
+
+
+
 
         public Person(string fName, string sName, int age, double salary)
         {

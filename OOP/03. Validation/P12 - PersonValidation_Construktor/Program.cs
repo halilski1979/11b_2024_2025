@@ -27,7 +27,8 @@ namespace P12___PersonValidation_Construktor
                 Console.WriteLine(item.ToString());
             }
 
-            Console.WriteLine(Person.counter);
+            Console.WriteLine(Person.Counter);
+            
         }
     }
 }
