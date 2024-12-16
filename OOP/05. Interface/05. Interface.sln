@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p11 - Figuri", "p11 - Figur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12  - Cars", "P12  - Cars\P12  - Cars.csproj", "{28312B5E-F3AD-4FC6-9387-AC1475E7471C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14 -  Telephonia", "P14 -  Telephonia\P14 -  Telephonia.csproj", "{5CC0D7B9-CCD3-4663-8A9C-834E2C3D7D0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{28312B5E-F3AD-4FC6-9387-AC1475E7471C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28312B5E-F3AD-4FC6-9387-AC1475E7471C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28312B5E-F3AD-4FC6-9387-AC1475E7471C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC0D7B9-CCD3-4663-8A9C-834E2C3D7D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC0D7B9-CCD3-4663-8A9C-834E2C3D7D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC0D7B9-CCD3-4663-8A9C-834E2C3D7D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC0D7B9-CCD3-4663-8A9C-834E2C3D7D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
