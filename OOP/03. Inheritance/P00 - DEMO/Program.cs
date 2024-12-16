@@ -35,6 +35,8 @@
             Console.WriteLine();
 
             teacher1.DisplayInfo();
+
+
         }
     }
 }

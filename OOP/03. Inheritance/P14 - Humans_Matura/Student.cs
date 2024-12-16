@@ -13,6 +13,9 @@ namespace P14___Humans_Matura
         {
             this.Grade = grade;
         }
+       
+        
+        
         private double grade;
 
         public double Grade

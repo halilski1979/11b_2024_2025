@@ -9,9 +9,9 @@ namespace P00_Demo
     abstract class Person
     {
         // Полета
-        protected string fName;
-        protected string sName;
-        protected int age;
+        public string fName;
+        public string sName;
+        public int age;
 
         // Конструктор
         public Person(string fName, string sName, int age)
@@ -21,9 +21,13 @@ namespace P00_Demo
             this.age = age;
         }
 
-        // Абстрактен метод
+        
+        //•	Деклариран е без тяло в абстрактен клас.
+        //•Трябва задължително да бъде имплементиран в наследяващия клас.
         public abstract string GetDetails();
 
+        
+        
         // Общ метод
         public void DisplayFullName()
         {
