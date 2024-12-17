@@ -11,8 +11,8 @@ namespace P14____Telephonia
         public void Browse(string[] sites)
         {
             for (int i = 0; i < sites.Length; i++)
-                if (sites[i].Any(a => char.IsNumber(a)))
-                    Console.WriteLine("Invalid URL!");
+                if (sites[i].Any(x => char.IsNumber(x)))
+                    Console.WriteLine($"{sites[i]} is Invalid URL!");
                 else
                     Console.WriteLine("Browsing: " + sites[i]);
         }
@@ -24,7 +24,7 @@ namespace P14____Telephonia
                 if (ulong.TryParse(numbers[i], out ulong useless))
                     Console.WriteLine("Calling... " + numbers[i]);
                 else
-                    Console.WriteLine("Invalid number!");
+                    Console.WriteLine($"{numbers[i]} is Invalid number!");
             }
         }
     }
